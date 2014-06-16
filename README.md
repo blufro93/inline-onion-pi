@@ -1,3 +1,4 @@
+
 Overview:
 
 	This is a shell script to create an onion router for your Raspberry Pi with a USB Ethernet
@@ -49,3 +50,6 @@ Directions:
 
 	With your Raspberry Pi set up this way, all traffic behind your Raspbery Pi which goes
 	through the USB ethernet adapter will be either forced through tor or blocked.
+
+
+	Having Issues?  Hit me up on twitter: @blufro93
