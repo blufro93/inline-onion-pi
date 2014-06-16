@@ -52,4 +52,8 @@ Directions:
 	through the USB ethernet adapter will be either forced through tor or blocked.
 
 
-	Having Issues?  Hit me up on twitter: @blufro93
+Questions, Comments, or Suggestions? Hit me up!
+	
+	twitter: @blufro93
+	email: blufro93@mail2tor.com
+	reddit: blufro93
