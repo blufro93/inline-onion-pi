@@ -9,6 +9,5 @@ for i in `cat fingerprints`; do echo "/info $i" | arm -p | sed -r "s/\x1B\[([0-9
 # construct our tcpdump inerface
 interface="eth0 not host `head -n 1 ips`"
 for i in `tail -n +2 ips`; do interface="$interface and not host $i"; done
-echo $interface
-
 # tcpdump
+tcpdump -n -t -q -i $interface
