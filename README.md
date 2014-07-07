@@ -1,7 +1,7 @@
 
 Overview:
 
-	This is a shell script to create an onion router for your Raspberry Pi with a USB Ethernet
+	This is a shell script to create an onion router proxy for your Raspberry Pi with a USB Ethernet
 	adapter from a stock Moebius Linux image.  This will allow you to plug your Pi directly into
 	your network and force all TCP traffic to be directed through tor, and force all UDP traffic to
 	be dropped.
