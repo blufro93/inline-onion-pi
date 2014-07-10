@@ -36,7 +36,7 @@ for i in `tail -n +2 ips`; do interface="$interface and not host $i"; done
 echo "Your current tor entry nodes are:"
 cat ips
 
-read -p "Press ENTER to continue ..."
+echo "Now dumping packets (Press Ctrl+C to break out)"
 
 #cleanup
 rm entry-guards
