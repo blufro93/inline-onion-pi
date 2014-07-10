@@ -40,7 +40,7 @@ read -p "Press ENTER to continue ..."
 
 #cleanup
 rm entry-guards
-rm finterprints
+rm fingerprints
 rm ips
 
 # tcpdump
