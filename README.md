@@ -51,6 +51,18 @@ Directions:
 	With your Raspberry Pi set up this way, all traffic behind your Raspbery Pi which goes
 	through the USB ethernet adapter will be either forced through tor or blocked.
 
+Verification:
+
+	You can verify that your Pi is only making connections to guard nodes on the Tor network by
+	doing:
+
+	1. Download the verify script to your Pi:
+
+		# wget https://raw.githubusercontent.com/blufro93/inline-onion-pi/master/verify-pi.sh
+
+	2. Run the verify script:
+
+		# sh verify-tor.sh
 
 Questions, Comments, or Suggestions? Hit me up!
 	

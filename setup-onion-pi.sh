@@ -148,6 +148,9 @@ service tor start
 ## and make tor run on boot
 update-rc.d tor enable
 
+## get tor-arm and tcpdump so that verify script works
+apt-get -y install tcpdump tor-arm
+
 ## now make the root file system read-only (from http://blog.pi3g.com/2014/04/make-raspbian-system-read-only/ )
 
 ## install unionfs which will be used for our ramdisk file system
